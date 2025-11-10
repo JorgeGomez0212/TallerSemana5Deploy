@@ -29,7 +29,7 @@ jobs:
           name: Deploy to Railway App
           command: |
             cd bankchurn-api
-            railway up --service=bountiful-cat --detach
+            railway up --service=bountiful-cat --project-id='492e432e-7288-4a17-b106-67cf2b82f54a' --detach
 
 
 tags_only: &tags_only
